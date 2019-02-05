@@ -1,0 +1,50 @@
+.collections {
+    text-align: center;
+}
+
+.header-collections {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 3% 20%;
+}
+
+.collections img {
+    width: 100%;
+}
+
+
+.collection-item {
+    margin-bottom: 20px;
+}
+
+.collection-item .collection-item-img {
+    padding: 0;
+}
+
+.collection-text {
+    padding: 5rem;
+}
+
+.buttons-discover {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 15px 0;
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-shadow: none;
+    display: inline-block;
+    border: 2px solid #000;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+.buttons-discover:hover {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+}

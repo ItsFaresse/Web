@@ -1,0 +1,21 @@
+@import 'variables';
+
+
+    
+section.masthead {
+    position: relative;
+    background-image: url("../img/banner.jpg");
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  
+  @media (min-width: 768px) {
+    section.masthead {
+      padding-top: 12rem;
+      padding-bottom: 12rem;
+    }
+    section.masthead h1 {
+      font-size: 3rem;
+    }
+  }
+
