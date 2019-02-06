@@ -1,0 +1,46 @@
+@import 'variables';
+
+// Avatar mouse hover
+.avatar {
+    display: block;
+    width: 1472px / $steps_1;
+    height: 325px;
+    background: url(./assets/img/avatar.png) no-repeat;  
+}
+
+.avatar:hover {animation: avatar 0.5s steps($steps_1) infinite;}
+
+@keyframes avatar {
+    from { background-position-x: 0; }
+    to { background-position-x: -1472px; }
+}
+
+// Sprite
+.sprite {
+    display: block;
+    width: 500px / $steps_2;
+    height: 83px;
+    background: url(./assets/img/sprite.png) no-repeat;  
+    animation: mario 0.5s steps($steps_2) infinite;
+}
+ 
+@keyframes mario {
+    from { background-position-x: 0; }
+    to { background-position-x: -500px; }
+}
+
+// Twitter
+
+.twitter {
+    display: block;
+    width: 600px / $steps_3;
+    height: 150px;
+    background: url(./assets/img/twitter.png) no-repeat;
+    animation: twitter 0.4s steps($steps_3) infinite;
+
+}
+
+@keyframes twitter {
+    from { background-position-x: 0; }
+    to { background-position-x: -600px }
+}

@@ -1,0 +1,40 @@
+.avatar {
+  display: block;
+  width: 184px;
+  height: 325px;
+  background: url(./assets/img/avatar.png) no-repeat; }
+
+.avatar:hover {
+  animation: avatar 0.5s steps(8) infinite; }
+
+@keyframes avatar {
+  from {
+    background-position-x: 0; }
+  to {
+    background-position-x: -1472px; } }
+.sprite {
+  display: block;
+  width: 83.3333333333px;
+  height: 83px;
+  background: url(./assets/img/sprite.png) no-repeat;
+  animation: mario 0.5s steps(6) infinite; }
+
+@keyframes mario {
+  from {
+    background-position-x: 0; }
+  to {
+    background-position-x: -500px; } }
+.twitter {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background: url(./assets/img/twitter.png) no-repeat;
+  animation: twitter 0.4s steps(4) infinite; }
+
+@keyframes twitter {
+  from {
+    background-position-x: 0; }
+  to {
+    background-position-x: -600px; } }
+
+/*# sourceMappingURL=style.css.map */
